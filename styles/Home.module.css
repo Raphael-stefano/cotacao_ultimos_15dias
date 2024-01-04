@@ -1,0 +1,48 @@
+.tela{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 35%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 15%;;
+}
+
+.cabecalho select{
+  border: 1.5px solid black;
+  border-radius: 6px;
+  width: 150px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.cabecalho button{
+  background-color: #00CC66;
+  color: white;
+  font-size: 16px;
+  border: 2px solid #006633;
+  border-radius: 6px;
+  width: 150px;
+  font-weight: bold;
+  transition: all 0.75s;
+}
+
+.cabecalho button:hover{
+  background-color: #00FF80;
+}
